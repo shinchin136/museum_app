@@ -34,7 +34,7 @@ ActiveRecord::Schema.define(version: 20150917230230) do
     t.integer  "year"
     t.string   "style"
     t.string   "image"
-    t.integer  "museum_id_id"
+    t.integer  "museum_id"
     t.integer  "artist_id"
     t.datetime "created_at",   null: false
     t.datetime "updated_at",   null: false
